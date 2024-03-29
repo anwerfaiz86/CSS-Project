@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: aeonik;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+#nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+}
+#nav1 h2 {
+  font-size: 25px;
+  text-transform: lowercase;
+}
+#nav3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  /* background-color: blueviolet; */
+  margin: 0px 20px;
+}
+#nav3 h4 {
+  font-size: 25px;
+}
+
+#content {
+  /* background-color: brown; */
+  height: 800px;
+  width: 100%;
+  padding: 50px 80px;
+}
+#content h3 {
+  text-transform: lowercase;
+  font-size: 30px;
+}
+#content h1 {
+  text-transform: lowercase;
+  font-size: 175px;
+  font-weight: 400;
+
+  line-height: 140px;
+  padding: 60px 10px;
+}
+
+#product {
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 290px;
+}
+#product h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.product-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 220px;
+  align-items: center;
+  /* background-color: aqua; */
+  padding: 0px 80px;
+}
+
+.product-img .pic1 {
+  background-image: url("https://i.pinimg.com/236x/47/ca/fb/47cafb953853322a299c84367f127bb7.jpg");
+  background-size: cover;
+  /* background-color: blue; */
+  height: 500px;
+  width: 600px;
+}
+.product-img .pic2 {
+  background-image: url("https://i.pinimg.com/236x/4b/89/60/4b896073c8a2ec550136e2c3f6a839f9.jpg");
+  background-size: cover;
+  /* background-color: blueviolet; */
+  height: 500px;
+  width: 600px;
+}
+.product-img h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.product-img h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 20px;
+}
+
+.down i {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
